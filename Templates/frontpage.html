@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html><head>
+    <title>
+       front 
+    </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="sidebar.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.test {
+    background-color: white;
+}
+.test1 {
+    background-color: #070d59;
+}
+</style>
+</head>
+<!--<body bgcolor="#070d59">-->
+ <body bgcolor="#070d59" style="height: 1000px;">
+<div class="w3-top">
+  <div class="w3-bar test1" id="myP"  style="height: 75px;">
+   <div>
+    <a href="#" class="w3-bar-item w3-button w3-hover-none w3-hover-text-white" style="margin-left: 10px;border-color: #070d59;color: white;font-family: 'Montserrat', sans-serif;font-size: 40px;"><b>Startatcoding</b></a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-none  w3-bottombar w3-hover-border-white w3-hover-text-white" style="margin-left: 50%;border-color: #070d59;color: white;margin-top: 20px;">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-none  w3-bottombar w3-hover-border-white w3-hover-text-white" style="margin-left: 20px;border-color: #070d59;color: white;margin-top: 20px;">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-none  w3-bottombar w3-hover-border-white w3-hover-text-white" style="margin-left: 20px;border-color: #070d59;color: white;margin-top: 20px;">Contact</a>
+    </div>
+  </div>
+  </div>
+ 
+
+<script>
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("myP").className = "test w3-card";
+    } else {
+    document.getElementById("myP").className = "test1";
+    }
+}
+</script>
+
+<a href="#"><div class="w3-card w3-bar-item w3-mobile" style="width: 300px;height: 200px;margin-left: 25px;margin-right: 25px;margin-top: 30px;margin-bottom: 30px"><p>w3-card-2</p></div>
+    <a href="#"><div class="w3-card w3-bar-item w3-mobile" style="width: 300px;height: 200px;margin-left: 25px;margin-right: 25px;margin-top: 30px;margin-bottom: 30px"><p>w3-card-4</p></div>
+   <a href="#"><div class="w3-card w3-bar-item w3-mobile" style="width: 300px;height: 200px;margin-left: 25px;margin-right: 25px;margin-top: 30px;margin-bottom: 30px;"><p>w3-card-4</p></div>
+</body>
+</html>
